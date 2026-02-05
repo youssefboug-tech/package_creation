@@ -1,0 +1,21 @@
+[project]
+name = "package-creation-tutorial"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "youssefboug-tech",email = "youssefbougriba2@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas (>=3.0.0,<4.0.0)",
+    "pytest (>=9.0.2,<10.0.0)",
+    "pytest-cov (>=7.0.0,<8.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "package_creation_tutorial", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
