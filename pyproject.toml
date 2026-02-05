@@ -10,7 +10,11 @@ requires-python = ">=3.11"
 dependencies = [
     "pandas (>=3.0.0,<4.0.0)",
     "pytest (>=9.0.2,<10.0.0)",
-    "pytest-cov (>=7.0.0,<8.0.0)"
+    "pytest-cov (>=7.0.0,<8.0.0)",
+    "ruff (>=0.15.0,<0.16.0)",
+    "pre-commit (>=4.5.1,<5.0.0)",
+    "sphinx (<9.0.0)",
+    "sphinx-rtd-theme (>=3.1.0,<4.0.0)"
 ]
 
 [tool.poetry]
